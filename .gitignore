@@ -1,0 +1,19 @@
+# Bỏ qua môi trường ảo
+venv/
+
+# Bỏ qua biến môi trường chứa thông tin nhạy cảm
+.env
+
+# Bỏ qua cache Python
+__pycache__/
+*.py[cod]
+
+# Bỏ qua file hệ điều hành
+.DS_Store
+Thumbs.db
+
+# Bỏ qua cài đặt của VSCode (nếu bạn dùng folder .vscode/)
+.vscode/
+
+# Bỏ qua file log nếu có sinh ra
+*.log

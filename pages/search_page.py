@@ -34,7 +34,7 @@ class SearchPage:
         self.wait.until(
             EC.presence_of_element_located((
                 By.CSS_SELECTOR, 
-                "[data-view-id='product_list_top_categories_container']" # Đây là container chứa các sản phẩm
+                "[data-view-id='product_list_top_categories_container']" 
             ))
         )
     # Nhập từ khóa
@@ -61,7 +61,7 @@ class SearchPage:
         select_product = self.wait.until(
             EC.element_to_be_clickable((
                 By.XPATH,
-                "(//a[contains(@class,'product-item') and @data-view-id='product_list_item'])[1]"
+                "(//a[contains(@class,'product-item') and @data-view-id='product_list_item'])[2]"
             ))
         )
         select_product.click()

@@ -1,9 +1,9 @@
 import os
 from dotenv import load_dotenv
 from utils.driver_setup import init_driver
-from tests.test_login import test_login
-from tests.test_search import test_search
-from tests.test_cart import test_cart
+from tests.test_01_login import test_login
+from tests.test_02_search import test_search
+from tests.test_03_cart import test_cart
 
 if __name__ == "__main__":
     load_dotenv()
